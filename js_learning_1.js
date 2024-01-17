@@ -1,5 +1,6 @@
 
 let userName = "Ankita"; //global scope
+
 function jslearning(){
 
                                                      //javaScript Declarations are Hoisted
@@ -129,5 +130,7 @@ let g = 10;
 console.log(g===10);//true
 console.log(g==='10');//false g is a number not string data type
 console.log(g===20);//false  value change
+
+
 }
 jslearning();
